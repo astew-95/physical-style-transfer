@@ -1,0 +1,7 @@
+INFO
+shape: (1, 168, 256, 128)
+min: 0.0
+max: 4625.886
+mean: 199.82687
+
+PARAMS: {'style_weight': 10, 'content_weight': 100.0, 'epochs': 10, 'steps_per_epoch': 20, 'total_variation_weight': 30, 'style_layers': ['block1_conv1', 'block2_conv1', 'block3_conv1', 'block4_conv1', 'block5_conv1'], 'content_layers': ['block5_conv2']}
