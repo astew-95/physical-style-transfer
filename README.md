@@ -27,6 +27,47 @@ We use the VGG19 network architecture, a pre-trained image classification networ
 define the representation of content and style from particle
 data.
 
+
+## SPH Formulation
+
+SPH simulations involve several key steps:
+
+#### Particle Representation
+The core is divided into a large number of discrete particles, often referred to as "fluid particles." These particles represent small portions of the mass of the core material and are assigned physical properties based on the initial conditions.
+    
+#### Initial Conditions 
+The simulation starts with either a geometric distribution or arandom initialization of fluid particles and relaxes to an equilibrium. Researchers define the initial point properties such as density, temperature, composition, and initial velocity distribution.
+
+#### Equations of Motion
+The fundamental equations governing the behavior of the fluid (e.g., the Navier-Stokes Equation) are discretized and solved for each particle within the simulation. The interactions between particles are computed using kernel functions that account for physical properties like pressure, density, and viscosity.
+    
+#### Time Integration
+SPH simulations evolve over time, advancing the system's state each time step. This integration process updates particle positions and velocities, taking into account the forces acting on them.
+    
+#### Boundary Conditions
+Researchers impose boundary conditions to reflect the physical constraints of the system such as spacial boundaries and relational constraints. In our case, the motion of the SPH particles was contained to a unit cube.
+
+
+
+### Smooth-Particle Hydrodynamics Density Estimation}
+
+The density $\rho_i$ at the position of particle $i$ is estimated using a kernel function $W$:
+
+
+$$ \rho_i = \sum_j m_j W(\mathbf{r}_i - \mathbf{r}_j, h)$$
+
+where:
+
+$$\begin{align*}
+\rho_i & : \text{Density at particle } i, \\
+m_j & : \text{Mass of particle } j, \\
+\mathbf{r}_i & : \text{Position of particle } i, \\
+\mathbf{r}_j & : \text{Position of particle } j, \\
+h & : \text{Smoothing length}, \\
+W(\mathbf{r}, h) & : \text{Kernel function}.
+\end{align*}$$
+
+
 ## Dataset 
 
 The dataset was obtained through publicly available, pre-
