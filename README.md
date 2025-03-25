@@ -98,7 +98,13 @@ for low-level features.
 
 Image Source: https://www.youtube.com/watch?v=Elxnzxk-AUk
 
-## Future Work
+
+
+## Resulting Style Images
+
+![image](results0.png)
+![image](results1.png)
+
 
 There are many opportunities to expand this work, which
 is simply opening the door to the possibility of a physical intuition of Style Transfer for simulation data. Fine-grained
