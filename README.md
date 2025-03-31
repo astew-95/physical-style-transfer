@@ -1,4 +1,4 @@
-# Physical Meaning of Style Transfer: Physics-Informed Style Transfer for CFD simulations.
+# Physical Meaning of Style Transfer: Physics-Informed Style Transfer for CFD simulations. (Paper Sample)
 
 We propose a potential physical meaning of the use
 of the Gram Matrix for style transfer which extends beyond
@@ -36,7 +36,7 @@ SPH simulations involve several key steps:
 The core is divided into a large number of discrete particles, often referred to as "fluid particles." These particles represent small portions of the mass of the core material and are assigned physical properties based on the initial conditions.
     
 #### Initial Conditions 
-The simulation starts with either a geometric distribution or arandom initialization of fluid particles and relaxes to an equilibrium. Researchers define the initial point properties such as density, temperature, composition, and initial velocity distribution.
+The simulation starts with either a geometric distribution or a random initialization of fluid particles and relaxes to an equilibrium. Researchers define the initial point properties such as density, temperature, composition, and initial velocity distribution.
 
 #### Equations of Motion
 The fundamental equations governing the behavior of the fluid (e.g., the Navier-Stokes Equation) are discretized and solved for each particle within the simulation. The interactions between particles are computed using kernel functions that account for physical properties like pressure, density, and viscosity.
@@ -100,7 +100,7 @@ Image Source: https://www.youtube.com/watch?v=Elxnzxk-AUk
 
 
 
-## Resulting Style Images
+## Resulting Style Images (Sample)
 
 ![image](results0.png)
 ![image](results1.png)
