@@ -1,6 +1,6 @@
 # Physical Meaning of Style Transfer: Physics-Informed Style Transfer for CFD simulations. (Paper Sample)
 
-We propose a potential physical meaning of the use
+In this project, I propose a potential physical meaning of the use
 of the Gram Matrix for style transfer which extends beyond
 the notion of texture, shape, and color in images to the relationships between feature vectors in simulations of physical
 systems. We incorporate domain knowledge of the use of
