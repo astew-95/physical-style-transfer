@@ -107,12 +107,12 @@ Image Source: https://www.youtube.com/watch?v=Elxnzxk-AUk
 
 
 There are many opportunities to expand this work, which
-is simply opening the door to the possibility of a physical intuition of Style Transfer for simulation data. Fine-grained
+suggests the feasibility of a meaningful notion of Style Transfer from simulation data. Fine-grained
 SPH simulations were used such that the particles have only
-undergone a few seconds of real-time motion, thus the starting point of the particles is sufficient metric along the x-
-axis, preserving some spatial relevance. For longer simulations, this method could pose problems due to the parti-
+undergone a few seconds of real-time motion, thus the starting point of the particles is a sufficient metric along the x-
+axis through preserving some spatial relevance. For longer simulations, this method could pose problems due to the parti-
 cles undergoing long-range motion and a better pre-trained
-model would be needed to capture the large-scale spatial
-features of the data when applying Style Transfer to extract
-small-order feature vectors. 
+model would be needed to capture the step by step spatial
+features of the data (for example RNNs or LSTMs) when applying Style Transfer to extract
+longer-time dependent feature vectors. 
 
